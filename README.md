@@ -15,7 +15,7 @@ This is a simple blog project built with Node.js, Express, MongoDB, and Mongoose
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/blog-project.git](https://github.com/skursatToklucu/SimpleBlogPractice.git
+   git clone https://github.com/skursatToklucu/SimpleBlogPractice.git
 
 2. Install the dependencies:
 
