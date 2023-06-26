@@ -7,10 +7,8 @@ require("dotenv").config();
 const app = express();
 app.use(express.json());
 
-mongoose.connect(
-  "mongodb+srv://cshu888:H0p5buvI2SYKMZAZ@blogcluster.yuyydji.mongodb.net/",
-  { useNewUrlParser: true, useUnifiedTopology: true }
-);
+mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true });
+
 
 app.use("/user", userRoutes);
 app.use("/blog", blogRoutes);
