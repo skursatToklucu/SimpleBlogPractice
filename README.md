@@ -27,8 +27,8 @@ This is a simple blog project built with Node.js, Express, MongoDB, and Mongoose
      Create a .env file in the root directory and add the following:
 
          JWT_SECRET= your_jwt_secret
-         MONGODB_USERNAME=cshu888
-         MONGODB_PASSWORD=H0p5buvI2SYKMZAZ
+         MONGODB_USERNAME= <your_username>
+         MONGODB_PASSWORD= <your_password
          MONGODB_URI=mongodb+srv://$MONGODB_USERNAME:$MONGODB_PASSWORD@blogcluster.yuyydji.mongodb.net/
 
   4. Start the server:
